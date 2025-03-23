@@ -23,6 +23,10 @@ body {
     object-fit: contain;
 }
 
+img {
+    filter: invert(85%) sepia(7%) saturate(911%) hue-rotate(192deg) brightness(82%) contrast(90%);
+}
+
 .source-container {
     position: fixed;
     bottom: 20px;
